@@ -1,0 +1,3 @@
+Insurance PDD_Document
+
+Please find the PDD document named 'Insurance_PDD_1.pdf' in the resource folder to understand the implementation steps and also find the required input file and the demo application from the resources folder to start the development :)

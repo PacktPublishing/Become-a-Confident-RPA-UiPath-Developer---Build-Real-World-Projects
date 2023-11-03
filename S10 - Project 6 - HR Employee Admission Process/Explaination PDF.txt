@@ -1,0 +1,64 @@
+Dear Astha,
+Subject: Appointment Letter
+We are pleased to appoint you as an employee in ExcelCult on the following terms and conditions:
+A. Designation : QA Analyst
+B. Date of Joining : 31 Jan, 2020
+C. Location : Bangalore
+D. CTC : INR 3,40,000/-
+E. Performance Bonus : INR 64,000/- per annum
+1. General Terms and Conditions
+a. This appointment letter contains broad terms and conditions
+
+
+==> pdfData variable
+
+we have to extract Designation***
+
+Substring function
+
+substring(int startIndex,length)
+
+IndexOf(string input)
+
+********************
+
+pdfData.IndexOf("A. Designation :")==200
+
+"A. Designation :".length == 16
+
+*******************
+
+pdfData.substring(pdfData.IndexOf("A. Designation :")+"A. Designation :".length )
+
+
+QA Analyst
+B. Date of Joining : 31 Jan, 2020
+C. Location : Bangalore
+D. CTC : INR 3,40,000/-
+E. Performance Bonus : INR 64,000/- per annum
+1. General Terms and Conditions
+a. This appointment letter contains broad terms and conditions
+
+********************
+
+Split() comma,fullstop or new line
+
+
+
+newString.split(vblf) = {"QA Analyst","B. Date of Joining : 31 Jan, 2020","C. Location : Bangalore".....}
+
+0
+
+
+pdfData.substring(pdfData.IndexOf("A. Designation :")+"A. Designation :".length ).split(vblf)(0)
+
+"QA Analyst"
+
+
+
+
+
+
+
+
+

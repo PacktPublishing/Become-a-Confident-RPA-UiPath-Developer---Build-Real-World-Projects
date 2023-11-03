@@ -1,0 +1,6 @@
+Quick Guide
+Hey Congratulations, on making it to this far :)
+
+Here is the final assignment- with all the knowledge that you have obtained from the course, you can start implementing this final project on your own by following the PDD provided.
+
+I wish you all the best :)
